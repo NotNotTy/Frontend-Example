@@ -1,0 +1,30 @@
+.greenTarget {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+
+  .greenTarget:hover {
+    filter: drop-shadow(0 0 2em #3cff00aa);
+  }
+  .greenTarget.react:hover {
+    filter: drop-shadow(0 0 2em #0b952daa);
+  }
+
+
+  .redTarget {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+
+  .redTarget:hover {
+    filter: drop-shadow(0 0 2em #ff0000fb);
+  }
+  .redTarget.react:hover {
+    filter: drop-shadow(0 0 2em #890000aa);
+  }
+
+
